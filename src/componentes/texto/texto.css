@@ -1,0 +1,16 @@
+.default {
+  font-size: 1.25rem;
+}
+
+.muted {
+ font-size: 1.25rem;
+ color: var(--text-secondary);
+}
+
+.heading {
+  font-size:  1.5rem;
+}
+
+.blast {
+  font-size: 1.875rem;
+}

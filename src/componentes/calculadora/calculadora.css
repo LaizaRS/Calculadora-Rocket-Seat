@@ -1,0 +1,42 @@
+.calculadora {
+  background-color: #2D2A37;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.botoes {
+  display: flex;
+  gap: 10px;
+}
+
+.ce-c{
+  display: flex;
+  gap: 10px;
+}
+
+.diferente-width{
+  width: 140px;
+}
+
+.numeros {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 212px;
+
+}
+
+.botao-roxo{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.roxo {
+  background: var(--primary);
+}
+
+.roxo:hover {
+  background: #7F45E2; 
+}

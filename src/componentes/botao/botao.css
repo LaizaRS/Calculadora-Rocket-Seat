@@ -1,0 +1,13 @@
+.botao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 5px;
+  border: none;
+  background: linear-gradient(var(--gradient));
+}
+.botao:hover {
+  background: linear-gradient(var(--gradient-hover));
+}

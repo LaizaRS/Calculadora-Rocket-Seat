@@ -1,0 +1,15 @@
+.display {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.text-align {
+  text-align: end;
+}
+
+.posicao {
+  display: flex;
+  justify-content: space-between;
+}
