@@ -1,7 +1,8 @@
 import "./display.css";
+import type { ReactNode } from "react";
 
 type DisplayProps = {
-  operacao?: string
+  operacao?: ReactNode
   resultado?: string
 }
 
@@ -11,12 +12,12 @@ const Display = ({operacao, resultado}: DisplayProps) => {
  return (
  <div className="display">
   <div> 
-    <p className="text-align muted">{operacao}</p>
+    <p className="text-align muted">{resultado && operacao}</p>
   </div>
 
   <div className="posicao"> 
     <p>=</p>
-    <h2 className="heading">{resultado}</h2>
+    <h2 className="heading">{resultado || operacao}</h2>
   </div>
  </div>
     

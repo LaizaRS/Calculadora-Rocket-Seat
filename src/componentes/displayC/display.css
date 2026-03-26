@@ -2,6 +2,7 @@
   margin: 10px;
   display: flex;
   flex-direction: column;
+  height: 70px;
   gap: 20px;
 }
 

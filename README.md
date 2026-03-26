@@ -1,7 +1,5 @@
 ## 💻 Projeto
-Este projeto consiste no desenvolvimento de uma calculadora, construída a partir de um design previamente definido no Figma.
-
-A aplicação foi desenvolvida com boas práticas de desenvolvimento, proporcionando uma navegação intuitiva e funcional.
+Este projeto consiste no desenvolvimento de uma calculadora, construída a partir de um design previamente definido no Figma. A aplicação foi desenvolvida com boas práticas de desenvolvimento, proporcionando uma navegação intuitiva e funcional.
 
 🔗 Protótipo no Figma: **Acesse aqui** [Acesse aqui](https://www.figma.com/community/file/1502290022613146600)
 

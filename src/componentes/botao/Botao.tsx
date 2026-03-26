@@ -1,18 +1,20 @@
-import type { ReactNode } from "react";
 import Texto from "../texto/Texto";
 import "./botao.css"
+import type { ReactNode } from "react";
+
 type BotaoProps = {
-  onClick?: string
+  onClick?:() => void
   children: ReactNode
   className?: string
 }
 
-const Botao = ({children, className}: BotaoProps) => {
+const Botao = ({children, className, onClick}: BotaoProps) => {
   return (
-<Texto><button className={className}>
-  {children}
-  </button></Texto>
-    
+    <Texto>
+      <button onClick={onClick} className={className}>
+      {children}
+      </button>
+    </Texto>
   );
 };
 
